@@ -1,0 +1,448 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						37
+					]
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-Debug-ab8a6e41af19396756b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-Debug-ddef4104f2ab25e593bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						34
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vermilion9",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34,
+						36
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-keypress::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-keypress-Debug-79b331880a99661e5413.json",
+					"name" : "01-keypress",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-triangles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-triangles-Debug-c5b71a07a75f48aa5f0a.json",
+					"name" : "01-triangles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-triangles-IMPL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-triangles-IMPL-Debug-c709875ea2242b8de6c4.json",
+					"name" : "01-triangles-IMPL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-drawcommands::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-drawcommands-Debug-786b10075a7d3dfa52cb.json",
+					"name" : "03-drawcommands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-instancing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-instancing-Debug-932a5eeecb5f22a38ccd.json",
+					"name" : "03-instancing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-instancing2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-instancing2-Debug-3d543efb5b141c8c7990.json",
+					"name" : "03-instancing2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-instancing3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-instancing3-Debug-238dd3dbef52bcf2bb24.json",
+					"name" : "03-instancing3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-pointsprites::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-pointsprites-Debug-8c9cacbee13993142815.json",
+					"name" : "03-pointsprites",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-primitiverestart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-primitiverestart-Debug-d447f1c9146edb6b3ffb.json",
+					"name" : "03-primitiverestart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-xfb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-xfb-Debug-771142f348b0e5452b93.json",
+					"name" : "03-xfb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-gouraud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-gouraud-Debug-c23d40c14cba860079eb.json",
+					"name" : "04-gouraud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-gouraud-float::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-gouraud-float-Debug-855ad80969bcbbeb4da6.json",
+					"name" : "04-gouraud-float",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-shadowmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-shadowmap-Debug-f76822d46e906c8932c3.json",
+					"name" : "04-shadowmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-cubemap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-cubemap-Debug-6b20312b1a9d9f1ada02.json",
+					"name" : "06-cubemap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-load-texture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-load-texture-Debug-bf1a5ebf0823dc062094.json",
+					"name" : "06-load-texture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-mipfilters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-mipfilters-Debug-40d80d024838e05e0844.json",
+					"name" : "06-mipfilters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-multitexture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-multitexture-Debug-7fa8a38bee7c1b934837.json",
+					"name" : "06-multitexture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-statictexture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-statictexture-Debug-36f53c21d4a7ab4eb9f3.json",
+					"name" : "06-statictexture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-texturewrapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-texturewrapping-Debug-1cab41e5329f2993da12.json",
+					"name" : "06-texturewrapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-volumetexturing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-volumetexturing-Debug-9306d4d014b012421c32.json",
+					"name" : "06-volumetexturing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08-lightmodels::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08-lightmodels-Debug-ccb3a805fb00bea2f208.json",
+					"name" : "08-lightmodels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09-simpletess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09-simpletess-Debug-2f9ce7a1ca628d92ca8f.json",
+					"name" : "09-simpletess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09-teapot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09-teapot-Debug-ff84532c9764e6af8a64.json",
+					"name" : "09-teapot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-draw-xfb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-draw-xfb-Debug-60a19896e7bf7cd33877.json",
+					"name" : "10-draw-xfb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-fur::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-fur-Debug-70ff5c9809e6232cdc28.json",
+					"name" : "10-fur",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-viewport-array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-viewport-array-Debug-5ae7f57d4a3015cddafe.json",
+					"name" : "10-viewport-array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11-doublewrite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11-doublewrite-Debug-a961ffccb66c4f7bb6ba.json",
+					"name" : "11-doublewrite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11-oit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11-oit-Debug-3dfcdce7a402abab65ff.json",
+					"name" : "11-oit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11-overdrawcount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11-overdrawcount-Debug-96f0c9221d5bd208d554.json",
+					"name" : "11-overdrawcount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12-imageprocessing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12-imageprocessing-Debug-05cddefdf1cf1bdc86a5.json",
+					"name" : "12-imageprocessing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12-particlesimulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12-particlesimulator-Debug-54c44d2cad158ac9cde2.json",
+					"name" : "12-particlesimulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12-raytracer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12-raytracer-Debug-ce20bcf7dc5e49ac51e8.json",
+					"name" : "12-raytracer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12-simplecompute::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12-simplecompute-Debug-97b1475e3a63a1826020.json",
+					"name" : "12-simplecompute",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debug-Debug-5f7f1dba9ff907222369.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-Debug-740b7a7260eb72f1739b.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release-Debug-cc99578f9090c3844821.json",
+					"name" : "release",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-Debug-d4ff8d4882a6794cc20f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vermilion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vermilion-Debug-ad3e8fbab6f56e2a995e.json",
+					"name" : "vermilion",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/denozi/CLionProjects/examples/cmake-build-debug",
+		"source" : "/home/denozi/CLionProjects/examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

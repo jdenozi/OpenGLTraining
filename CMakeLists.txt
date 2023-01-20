@@ -56,6 +56,7 @@ set(RUN_DIR ${PROJECT_SOURCE_DIR}/bin)
 set(EXAMPLES
   01-keypress
   01-triangles
+  01-triangles-IMPL
   03-drawcommands
   03-instancing
   03-instancing2
